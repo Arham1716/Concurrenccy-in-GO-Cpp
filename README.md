@@ -42,10 +42,13 @@ The project is organized as follows:
 │   ├── Assets/
 |   |  ├── cpp_graphs/
 │   |  ├── go_graphs/
+|
 │   ├── Screens/
 |   |  ├── problem.js/        #contains all problems js files
+|
 |   ├── Styling/
-|   |  ├── Main.css/      
+|   |  ├── Main.css/    
+|  
 │   ├── App.js/  
 │   ├── App.css/  
 │   ├── index.js/    
