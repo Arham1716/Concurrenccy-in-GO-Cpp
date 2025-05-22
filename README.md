@@ -37,23 +37,82 @@ These measurements provide insights into the efficiency and resource demands of 
 
 The project is organized as follows:
 
+It looks like the project structure you provided is incomplete and has some unusual elements (e.g., problem.js/ as a file and Main.css/ as a file). However, I'll do my best to interpret it and update the README.md to reflect a more typical web-based project structure, assuming src/ contains a React or similar frontend application, and the .exe running is handled by a backend (perhaps the Flask app from the previous prompt, which isn't explicitly in this structure).
+
+Here's an updated README.md focusing on a more plausible interpretation of your new structure:
+
+Markdown
+
+# Concurrent Programming Solutions: Performance Analysis
+
+This project showcases implementations of classic concurrent programming problems in C++ and Go, with a focus on analyzing their performance characteristics. The results of these analyses, including execution times, CPU/resource usage, and memory consumption, are visualized and presented through a web interface.
+
+---
+
+## Table of Contents
+
+-   [Features](#features)
+-   [Problems Implemented](#problems-implemented)
+-   [Performance Analysis](#performance-analysis)
+-   [Project Structure](#project-structure)
+-   [Setup and Running](#setup-and-running)
+-   [Results and Analysis](#results-and-analysis)
+-   [Technologies Used](#technologies-used)
+-   [Contributing](#contributing)
+-   [License](#license)
+
+---
+
+## Features
+
+-   **Concurrent Solutions:** Practical implementations of classic concurrency problems in C++ and Go.
+-   **Performance Benchmarking:** Automated measurement of execution times, CPU/resource usage, and memory consumption for both language implementations.
+-   **Web-based Visualization:** A dedicated frontend to display performance graphs (CPU, memory, execution time) for each problem and language.
+-   **Dynamic Problem Selection:** Users can select and view performance data for different concurrent problems.
+
+---
+
+## Problems Implemented
+
+The project includes concurrent solutions for the following classic problems:
+
+-   **Reader-Writer Problem:** Demonstrates controlled access to shared data.
+-   **Producer-Consumer Problem:** Illustrates synchronization between data generators and consumers.
+-   **Dining Philosophers Problem:** Addresses deadlock and starvation in resource sharing.
+-   **Dining Savages Problem:** A variant of the producer-consumer problem with specific synchronization rules.
+
+---
+
+## Performance Analysis
+
+A core component of this project is the comprehensive performance analysis:
+
+-   **Execution Time:** Measures how long each concurrent solution takes to complete.
+-   **CPU/Resource Usage:** Monitors CPU utilization and overall system resource consumption during execution.
+-   **Memory Usage:** Tracks the memory footprint of the running programs.
+
+These metrics provide valuable insights into the efficiency and resource demands of C++ versus Go for concurrent programming tasks. The analysis results are presented visually through graphs.
+
+---
+
+## Project Structure
+
+This project is structured as follows:
+
 .
-├── src/            
-│   ├── Assets/
-|   |  ├── cpp_graphs/
-│   |  ├── go_graphs/
-|
-│   ├── Screens/
-|   |  ├── problem.js/        #contains all problems js files
-|
-|   ├── Styling/
-|   |  ├── Main.css/    
-|  
-│   ├── App.js/  
-│   ├── App.css/  
-│   ├── index.js/    
-│   ├── index.css/      
-└── 
+├── src/                          # Frontend source code (e.g., React App)
+│   ├── Assets/                   # Static assets for the web application
+│   │   ├── cpp_graphs/           # Placeholder for C++ performance graphs (e.g., images)
+│   │   └── go_graphs/            # Placeholder for Go performance graphs (e.g., images)
+│   ├── Screens/                  # Components for different views/pages
+│   │   └── problem.js            # Contains logic and components for displaying problem data
+│   ├── Styling/                  # CSS files for styling the application
+│   │   └── Main.css
+│   ├── App.js                    # Main application component
+│   ├── App.css                   # Main application CSS
+│   ├── index.js                  # Entry point for the frontend application
+│   └── index.css     
+└──
 
 ## Setup and Running
 
