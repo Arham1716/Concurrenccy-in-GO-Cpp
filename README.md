@@ -47,7 +47,6 @@ To set up and run this project, follow these steps:
     ```bash
     # Example for one solution
     g++ -pthread -o reader_writer reader_writer.cpp
-    go build -o my_program.exe my_program.go
     ```
     Ensure the compiled `.exe` files are accessible by the Flask application (or placed in a designated `backend/cpp` directory).
 
