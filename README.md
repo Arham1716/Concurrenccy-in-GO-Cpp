@@ -31,26 +31,6 @@ The frontend visualizes the following key performance metrics, which are generat
 
 These visualizations help in understanding the performance trade-offs and efficiencies of C++ versus Go for common concurrent programming challenges.
 
----
-
-## Project Structure
-
-This repository contains the **frontend application** with the following structure:
-
-.
-├── src/
-│   ├── Assets/
-│   │   ├── cpp_graphs/             # Stores generated C++ performance graph images (e.g., .png, .svg)
-│   │   └── go_graphs/              # Stores generated Go performance graph images (e.g., .png, .svg)
-│   ├── Screens/
-│   │   └── problem.js              # React component(s) for displaying individual problem data and graphs
-│   ├── Styling/
-│   │   └── Main.css                # Main application-wide stylesheet
-│   ├── App.js                      # Root React component of the application
-│   ├── App.css                     # Stylesheet for the App component
-│   ├── index.js                    # Entry point for the React application (ReactDOM.render)
-│   └── index.css                   # Global stylesheet for the HTML document
-└── README.md                       # This README file
 
 ## Setup and Running
 
